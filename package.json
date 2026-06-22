@@ -1,0 +1,15 @@
+{
+  "name": "stuarc-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "expo": "~56.0.8",
+    "expo-router": "~56.2.8"
+  }
+}
